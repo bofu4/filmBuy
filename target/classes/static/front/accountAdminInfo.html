@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="pragma" content="no-cache"/>
+    <meta http-equiv="content-type" content="no-cache, must-revalidate"/>
+    <meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT"/>
+    <title>Profile</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/my.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/element/index.css" rel="stylesheet"/>
+
+    <style>
+        .nx-nav-container ul {
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .nx-nav-container ul li {
+            display: inline-block;
+            width: 120px;
+            text-align: center;
+            line-height: 45px;
+        }
+
+        .nx-nav-container a {
+            color: #FFFFFF;
+        }
+
+        .nx-nav-container a:hover {
+            color: aquamarine;
+            text-decoration: none;
+        }
+
+        [v-cloak] {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper" v-cloak>
+    <div class="nx-header">
+        <div style="display: flex;width: 100%; height: 30px; line-height: 30px; background-color: #eee;">
+            <div style="flex: 5; padding: 0 10px; color: orangered">
+                Welcome to Cinema ticketing system
+            </div>
+            <div v-if="user.name" style="flex: 1">
+                Welcome：{{user.name}}
+                <a style="margin-left: 30px; color: blue" href="javascript:void(0)" @click="logout">Log out</a>
+                <a v-if="isCollect" style="margin-left: 10px" href="collectInfo.html">收藏夹</a>
+            </div>
+        </div>
+    </div>
+    <div style="height: 80px; line-height: 80px;">
+        <div style="margin-left: 20px; position: relative">
+            <img src="img/film.png" alt="" style="width: 40px; position: absolute; top: 20px">
+            <b style="margin-left:45px;font-size: 25px; text-shadow: 5px 5px 3px #888888;color:green">Cinema ticketing system</b>
+        </div>
+    </div>
+
+    <div class="nx-nav-container" style="height: 45px; background-color: #333333">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+
+			<li><a href="messageInfo.html">Comments</a></li>
+
+
+			<li><a href="orderInfo.html">Order</a></li>
+			<li><a href="commentInfo.html">Rating</a></li>
+
+            <li class="active"><a href="javascript:void(0)" @click="personalPage">Profile</a></li>
+            <li v-if="isShow"><a href="/end/page/index.html" target="_blank">To Admin</a></li>
+            <li><a href="/end/page/login.html" target="_blank">Log in</a></li>
+            <li><a href="/end/page/register.html" target="_blank">Sign up</a></li>
+        </ul>
+    </div>
+    <div class="container"  style="margin-top: 20px">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Profile
+                    </div>
+                    <div class="panel-body">
+                        <form class="form-horizontal">
+                            <input type="hidden" v-model="entity.id">
+							<div class="form-group">
+								<label class="col-sm-3 control-label">name</label>
+								<div class="col-sm-5">
+									<input type="text" class="form-control" v-model="entity.name" placeholder="please input name">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label">nickName</label>
+								<div class="col-sm-5">
+									<input type="text" class="form-control" v-model="entity.nickName" placeholder="please input nickName">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label">sex</label>
+								<div class="col-sm-5">
+									<label class="radio-inline">
+										<input type="radio" value="male" v-model="entity.sex">male
+									</label>
+									<label class="radio-inline">
+										<input type="radio" value="female" v-model="entity.sex">female
+									</label>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label">age</label>
+								<div class="col-sm-5">
+									<input type="text" class="form-control" v-model="entity.age" placeholder="please input age">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label">birthday</label>
+								<div class="col-sm-5">
+									<div class="block">
+										<el-date-picker v-model="entity.birthday" type="datetime" clearable value-format="yyyy-MM-dd HH:mm:ss" placeholder="Select Date Time"></el-date-picker>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label">phone</label>
+								<div class="col-sm-5">
+									<input type="text" class="form-control" v-model="entity.phone" placeholder="please input phone">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label">address</label>
+								<div class="col-sm-5">
+									<input type="text" class="form-control" v-model="entity.address" placeholder="please input address">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label">code</label>
+								<div class="col-sm-5">
+									<input type="text" class="form-control" v-model="entity.code" placeholder="please input code">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label">email</label>
+								<div class="col-sm-5">
+									<input type="text" class="form-control" v-model="entity.email" placeholder="please input email">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label">cardId</label>
+								<div class="col-sm-5">
+									<input type="text" class="form-control" v-model="entity.cardId" placeholder="please input card id">
+								</div>
+							</div>
+
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">account</label>
+                                <div class="col-sm-7" style="line-height: 35px">
+                                    $ {{entity.account}}
+                                </div>
+                            </div>
+                        </form>
+                        <div style="text-align: center">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#rechargeModal" @click="account=100">Recharge</button>
+                            <button type="button" class="btn btn-primary" @click="update()">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 充值模态框 -->
+    <div class="modal" tabindex="-1" role="dialog" id="rechargeModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="modal-title">Recharge</span>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-horizontal">
+                        <input type="hidden" name="id" v-model="entity.id">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">account</label>
+                            <div class="col-sm-7">
+                                <input type="text" class="form-control" v-model="account" placeholder="please input account">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" @click="recharge()">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.metisMenu.js"></script>
+<script src="js/vue2.6.11/axios.js"></script>
+<script src="js/vue2.6.11/vue.min.js"></script>
+<script src="js/my.js"></script>
+<script src="js/element/index.js"></script>
+
+<script>
+    new Vue({
+        el: '#wrapper',
+        data: {
+            isCollect: false,
+            entity: {
+                sex: 'male'
+            },
+            user: {},
+            isShow: false,
+            account: null
+        },
+
+        created: function () {
+            this.loadData();
+        },
+        methods: {
+            loadData() {
+                axios.get('/auth').then(res => {
+                    if (res.data.code === '0') {
+                        this.user = res.data.data;
+                        if (this.user.level === 1) {
+                            this.isShow = true;
+                        }
+                        axios.get("/adminInfo/" + this.user.id).then(res => {
+                            if (res.data.code === '0') {
+                                this.entity = res.data.data;
+                            } else {
+                                alert(res.data.msg);
+                            }
+                        });
+                    } else {
+                        alert(res.data.msg);
+                        location.href = '/end/page/login.html';
+                    }
+                })
+            },
+            update() {
+                if (this.entity.phone && this.entity.phone !== "") {
+
+                    let reg  = \+[0-9][0-9] *[0-9][0-9][0-9][0-9]-[0-9][0-9][0-9]-[0-9][0-9][0-9];
+
+
+                    if (!reg.test(this.entity.phone)) {
+                        alert("Please enter the correct phone number");
+                        return;
+                    }
+                }
+                axios.put("/adminInfo", this.entity).then(res => {
+                    if (res.data.code === '0') {
+                        alert('updated successfully');
+                        this.loadData();
+                    } else {
+                        msg('error', res.data.msg);
+                    }
+                })
+            },
+            recharge() {
+                let data = {id: this.entity.id, account: parseFloat(this.entity.account) + parseFloat(this.account)};
+                axios.put("/adminInfo", data).then(res => {
+                    if (res.data.code === '0') {
+                        alert('recharge successfully');
+                        $("#rechargeModal").modal('hide');
+                        this.loadData();
+                    } else {
+                        alert(res.data.msg);
+                    }
+                })
+            },
+            logout() {
+                axios.get("/logout").then(res => {
+                    if(res.data.code === '0') {
+                        location.href = '/front/index.html';
+                    } else {
+                        alert(res.data.msg);
+                    }
+                })
+            }
+        }
+    })
+</script>
+</body>
+</html>

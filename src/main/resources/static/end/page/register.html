@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Register</title>
+
+    <link href="../css/bootstrap.css" rel="stylesheet"/>
+    <link href="../css/font-awesome.css" rel="stylesheet"/>
+
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style>
+</head>
+<body style="background-color: #a6e1ec;">
+<div id="app" class="container" v-cloak>
+    <div class="row text-center " style="padding-top:100px;">
+        <div class="col-md-12">
+            <h2>Welcome to register</h2>
+        </div>
+    </div>
+    <div class="row ">
+
+        <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+
+            <div class="panel-body">
+                <form role="form">
+                    <hr/>
+                    <br/>
+                    <div class="form-group input-group">
+                        <span class="input-group-addon"><i class="fa fa-tag"></i></span>
+                        <input type="text" class="form-control" v-model="user.name" placeholder="name"/>
+                    </div>
+                    <div class="form-group input-group">
+                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                        <input type="password" class="form-control" v-model="user.password" placeholder="password"/>
+                    </div>
+                    <div class="form-group input-group">
+                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                        <input type="password" class="form-control" v-model="user.newPassword" placeholder="confirm password"/>
+                    </div>
+                    <div class="form-group input-group">
+                        <span class="input-group-addon"><i class="fa fa-male"></i></span>
+                        <div style="margin-left: 20px">
+                            <input type="radio" name="sex" v-model="user.sex" value="man" title="man" checked>
+                            <span style="margin: 0 20px 0 5px">male</span>
+                            <input type="radio" name="sex" v-model="user.sex" value="woman" title="woman">
+                            <span style="margin: 0 20px 0 5px">female</span>
+                        </div>
+                    </div>
+                    <h5>Please select a role</h5>
+                    <div class="form-group input-group">
+                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                        <select v-model="user.level" class="form-control" style="height:35px;">
+                            <option v-for="item in authorities" :value="item.level" name="level">{{item.name}}</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="checkbox-inline">
+                        </label>
+                        <span class="pull-right">
+                        </span>
+                    </div>
+
+                    <div style="text-align: center">
+                        <a href="javascript:void(0)" @click="register" class="btn btn-primary">sign up</a>
+                    </div>
+                    <hr/>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="../js/vue2.6.11/vue.min.js"></script>
+<script src="../js/vue2.6.11/axios.js"></script>
+
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            user: {
+                name: "",
+                password: "",
+                newPassword: "",
+                sex: "男",
+                level: 1
+            },
+            authorities: [],
+        },
+        created: function () {
+            axios.get("/getAuthority").then(res => {
+                if (res.data.code === '0') {
+                    let list = res.data.data;
+                    this.authorities = list.filter(item => item.level !== 1);
+                } else {
+                    alert(res.data.msg);
+                }
+            });
+        },
+        methods: {
+            register() {
+                if (!this.user.name) {
+                    alert("please input name");
+                    return;
+                }
+                if (!this.user.password || !this.user.newPassword) {
+                    alert("please input password");
+                    return;
+                }
+                if (this.user.password !== this.user.newPassword) {
+                    alert("the two password inputs are inconsistent");
+                    return;
+                }
+                if (!this.user.level) {
+                    alert("please select a role");
+                    return;
+                }
+                axios.post('/register', this.user).then(res => {
+                    if(res.data.code === '0') {
+                        localStorage.setItem('user', JSON.stringify(res.data.data));
+                        window.location = '/front/index.html';
+                    } else {
+                        alert(res.data.msg);
+                    }
+                });
+            }
+        }
+    });
+</script>
+</body>
+</html>

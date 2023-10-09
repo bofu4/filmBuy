@@ -1,0 +1,749 @@
+2023-10-09 00:01:15.088  INFO 34659 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:01:15.109  INFO 34659 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 00:01:15.176  INFO 34659 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 00:01:19.935  INFO 34772 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 34772 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 00:01:19.937  INFO 34772 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 00:01:21.239  WARN 34772 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 00:01:22.290  INFO 34772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 00:01:22.333  INFO 34772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 00:01:22.334  INFO 34772 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 00:01:22.350  INFO 34772 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 00:01:22.490  INFO 34772 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 00:01:22.490  INFO 34772 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2459 ms
+2023-10-09 00:01:22.552  INFO 34772 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 00:01:22.554  INFO 34772 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 00:01:22.555  INFO 34772 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 00:01:22.555  INFO 34772 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 00:01:22.555  INFO 34772 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 00:01:24.700  INFO 34772 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:01:25.236  INFO 34772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 00:01:25.241  INFO 34772 --- [main] com.example.Application                  : Started Application in 5.912 seconds (JVM running for 6.668)
+2023-10-09 00:01:35.358  INFO 34772 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 00:01:35.362  INFO 34772 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 00:01:35.410  INFO 34772 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 48 ms
+2023-10-09 00:01:42.843  INFO 34772 --- [http-nio-8888-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 00:01:43.032  INFO 34772 --- [http-nio-8888-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 00:02:24.153  INFO 34772 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:02:24.157  INFO 34772 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 00:02:24.171  INFO 34772 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 00:02:27.871  INFO 34798 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 34798 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 00:02:27.873  INFO 34798 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 00:02:29.074  WARN 34798 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 00:02:30.122  INFO 34798 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 00:02:30.165  INFO 34798 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 00:02:30.166  INFO 34798 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 00:02:30.181  INFO 34798 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 00:02:30.320  INFO 34798 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 00:02:30.320  INFO 34798 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2359 ms
+2023-10-09 00:02:30.391  INFO 34798 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 00:02:30.395  INFO 34798 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 00:02:30.397  INFO 34798 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 00:02:30.397  INFO 34798 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 00:02:30.397  INFO 34798 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 00:02:32.561  INFO 34798 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:02:33.087  INFO 34798 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 00:02:33.092  INFO 34798 --- [main] com.example.Application                  : Started Application in 5.811 seconds (JVM running for 6.432)
+2023-10-09 00:02:35.611  INFO 34798 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 00:02:35.616  INFO 34798 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 00:02:35.653  INFO 34798 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 37 ms
+2023-10-09 00:02:35.982  INFO 34798 --- [http-nio-8888-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 00:02:36.225  INFO 34798 --- [http-nio-8888-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 00:06:18.833  INFO 34798 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:06:18.837  INFO 34798 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 00:06:18.890  INFO 34798 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 00:06:21.948  INFO 34828 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 34828 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 00:06:21.951  INFO 34828 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 00:06:23.205  WARN 34828 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 00:06:24.267  INFO 34828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 00:06:24.318  INFO 34828 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 00:06:24.318  INFO 34828 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 00:06:24.334  INFO 34828 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 00:06:24.469  INFO 34828 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 00:06:24.469  INFO 34828 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2424 ms
+2023-10-09 00:06:24.531  INFO 34828 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 00:06:24.535  INFO 34828 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 00:06:24.535  INFO 34828 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 00:06:24.535  INFO 34828 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 00:06:24.535  INFO 34828 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 00:06:26.737  INFO 34828 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:06:27.256  INFO 34828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 00:06:27.261  INFO 34828 --- [main] com.example.Application                  : Started Application in 5.936 seconds (JVM running for 6.577)
+2023-10-09 00:07:42.948  INFO 34828 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:07:45.111  INFO 34836 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 34836 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 00:07:45.114  INFO 34836 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 00:07:46.320  WARN 34836 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 00:07:47.359  INFO 34836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 00:07:47.386  INFO 34836 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 00:07:47.386  INFO 34836 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 00:07:47.395  INFO 34836 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 00:07:47.510  INFO 34836 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 00:07:47.511  INFO 34836 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2306 ms
+2023-10-09 00:07:47.570  INFO 34836 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 00:07:47.574  INFO 34836 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 00:07:47.575  INFO 34836 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 00:07:47.575  INFO 34836 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 00:07:47.575  INFO 34836 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 00:07:49.834  INFO 34836 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:07:50.368  INFO 34836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 00:07:50.380  INFO 34836 --- [main] com.example.Application                  : Started Application in 5.857 seconds (JVM running for 6.437)
+2023-10-09 00:07:57.037  INFO 34836 --- [http-nio-8888-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 00:07:57.040  INFO 34836 --- [http-nio-8888-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 00:07:57.082  INFO 34836 --- [http-nio-8888-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 42 ms
+2023-10-09 00:07:57.502  INFO 34836 --- [http-nio-8888-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 00:07:57.680  INFO 34836 --- [http-nio-8888-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 00:08:42.504  INFO 34836 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:08:42.510  INFO 34836 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 00:08:42.531  INFO 34836 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 00:08:44.593  INFO 34851 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 34851 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 00:08:44.596  INFO 34851 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 00:08:45.921  WARN 34851 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 00:08:46.935  INFO 34851 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 00:08:46.989  INFO 34851 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 00:08:46.989  INFO 34851 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 00:08:47.004  INFO 34851 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 00:08:47.134  INFO 34851 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 00:08:47.135  INFO 34851 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2445 ms
+2023-10-09 00:08:47.193  INFO 34851 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 00:08:47.197  INFO 34851 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 00:08:47.198  INFO 34851 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 00:08:47.198  INFO 34851 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 00:08:47.198  INFO 34851 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 00:08:49.324  INFO 34851 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:08:49.834  INFO 34851 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 00:08:49.839  INFO 34851 --- [main] com.example.Application                  : Started Application in 5.804 seconds (JVM running for 6.397)
+2023-10-09 00:10:59.832  INFO 34851 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:11:03.111  INFO 34920 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 34920 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 00:11:03.113  INFO 34920 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 00:11:04.340  WARN 34920 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 00:11:05.330  INFO 34920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 00:11:05.377  INFO 34920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 00:11:05.377  INFO 34920 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 00:11:05.393  INFO 34920 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 00:11:05.521  INFO 34920 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 00:11:05.522  INFO 34920 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2323 ms
+2023-10-09 00:11:05.581  INFO 34920 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 00:11:05.585  INFO 34920 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 00:11:05.585  INFO 34920 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 00:11:05.586  INFO 34920 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 00:11:05.586  INFO 34920 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 00:11:07.691  INFO 34920 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:11:08.208  INFO 34920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 00:11:08.212  INFO 34920 --- [main] com.example.Application                  : Started Application in 5.69 seconds (JVM running for 6.352)
+2023-10-09 00:11:12.718  INFO 34920 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 00:11:12.723  INFO 34920 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 00:11:12.759  INFO 34920 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 36 ms
+2023-10-09 00:11:36.786  INFO 34920 --- [http-nio-8888-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 00:11:37.040  INFO 34920 --- [http-nio-8888-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 00:13:18.481  INFO 34920 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:13:18.484  INFO 34920 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 00:13:18.501  INFO 34920 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 00:13:21.131  INFO 34940 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 34940 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 00:13:21.134  INFO 34940 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 00:13:22.439  WARN 34940 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 00:13:23.456  INFO 34940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 00:13:23.503  INFO 34940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 00:13:23.504  INFO 34940 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 00:13:23.519  INFO 34940 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 00:13:23.650  INFO 34940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 00:13:23.651  INFO 34940 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2423 ms
+2023-10-09 00:13:23.711  INFO 34940 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 00:13:23.715  INFO 34940 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 00:13:23.716  INFO 34940 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 00:13:23.716  INFO 34940 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 00:13:23.716  INFO 34940 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 00:13:25.888  INFO 34940 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:13:26.413  INFO 34940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 00:13:26.418  INFO 34940 --- [main] com.example.Application                  : Started Application in 5.886 seconds (JVM running for 6.481)
+2023-10-09 00:13:31.341  INFO 34940 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 00:13:31.343  INFO 34940 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 00:13:31.376  INFO 34940 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 33 ms
+2023-10-09 00:13:31.685  INFO 34940 --- [http-nio-8888-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 00:13:31.951  INFO 34940 --- [http-nio-8888-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 00:17:55.738  INFO 34940 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:17:55.743  INFO 34940 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 00:17:55.761  INFO 34940 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 00:17:58.485  INFO 34964 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 34964 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 00:17:58.487  INFO 34964 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 00:17:59.678  WARN 34964 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 00:18:00.688  INFO 34964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 00:18:00.729  INFO 34964 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 00:18:00.730  INFO 34964 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 00:18:00.745  INFO 34964 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 00:18:00.873  INFO 34964 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 00:18:00.873  INFO 34964 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2281 ms
+2023-10-09 00:18:00.935  INFO 34964 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 00:18:00.939  INFO 34964 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 00:18:00.940  INFO 34964 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 00:18:00.940  INFO 34964 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 00:18:00.940  INFO 34964 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 00:18:03.114  INFO 34964 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:18:03.637  INFO 34964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 00:18:03.643  INFO 34964 --- [main] com.example.Application                  : Started Application in 5.76 seconds (JVM running for 6.262)
+2023-10-09 00:18:05.692  INFO 34964 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 00:18:05.698  INFO 34964 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 00:18:05.729  INFO 34964 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 30 ms
+2023-10-09 00:18:06.199  INFO 34964 --- [http-nio-8888-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 00:18:06.381  INFO 34964 --- [http-nio-8888-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 00:18:36.634  INFO 34964 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:18:36.637  INFO 34964 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 00:18:36.646  INFO 34964 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 00:18:38.804  INFO 34971 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 34971 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 00:18:38.805  INFO 34971 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 00:18:40.111  WARN 34971 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 00:18:41.140  INFO 34971 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 00:18:41.186  INFO 34971 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 00:18:41.186  INFO 34971 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 00:18:41.204  INFO 34971 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 00:18:41.339  INFO 34971 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 00:18:41.339  INFO 34971 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2449 ms
+2023-10-09 00:18:41.400  INFO 34971 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 00:18:41.403  INFO 34971 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 00:18:41.404  INFO 34971 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 00:18:41.404  INFO 34971 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 00:18:41.404  INFO 34971 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 00:18:43.641  INFO 34971 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:18:44.129  INFO 34971 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 00:18:44.134  INFO 34971 --- [main] com.example.Application                  : Started Application in 5.963 seconds (JVM running for 6.639)
+2023-10-09 00:18:47.601  INFO 34971 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 00:18:47.603  INFO 34971 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 00:18:47.642  INFO 34971 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 38 ms
+2023-10-09 00:18:48.049  INFO 34971 --- [http-nio-8888-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 00:18:48.205  INFO 34971 --- [http-nio-8888-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 00:19:49.315  INFO 34971 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:19:49.318  INFO 34971 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 00:19:49.328  INFO 34971 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 00:19:51.474  INFO 34979 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 34979 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 00:19:51.477  INFO 34979 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 00:19:52.712  WARN 34979 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 00:19:53.662  INFO 34979 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 00:19:53.709  INFO 34979 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 00:19:53.709  INFO 34979 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 00:19:53.724  INFO 34979 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 00:19:53.851  INFO 34979 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 00:19:53.852  INFO 34979 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2288 ms
+2023-10-09 00:19:53.914  INFO 34979 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 00:19:53.917  INFO 34979 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 00:19:53.918  INFO 34979 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 00:19:53.918  INFO 34979 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 00:19:53.918  INFO 34979 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 00:19:56.058  INFO 34979 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:19:56.580  INFO 34979 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 00:19:56.586  INFO 34979 --- [main] com.example.Application                  : Started Application in 5.679 seconds (JVM running for 6.308)
+2023-10-09 00:19:59.555  INFO 34979 --- [http-nio-8888-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 00:19:59.559  INFO 34979 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 00:19:59.585  INFO 34979 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2023-10-09 00:20:00.061  INFO 34979 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 00:20:00.240  INFO 34979 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 00:20:57.587  INFO 34979 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:20:57.590  INFO 34979 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 00:20:57.605  INFO 34979 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 00:20:59.644  INFO 34995 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 34995 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 00:20:59.646  INFO 34995 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 00:21:00.886  WARN 34995 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 00:21:01.854  INFO 34995 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 00:21:01.901  INFO 34995 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 00:21:01.901  INFO 34995 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 00:21:01.916  INFO 34995 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 00:21:02.050  INFO 34995 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 00:21:02.050  INFO 34995 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2311 ms
+2023-10-09 00:21:02.115  INFO 34995 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 00:21:02.118  INFO 34995 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 00:21:02.118  INFO 34995 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 00:21:02.119  INFO 34995 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 00:21:02.119  INFO 34995 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 00:21:04.233  INFO 34995 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:21:04.740  INFO 34995 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 00:21:04.744  INFO 34995 --- [main] com.example.Application                  : Started Application in 5.678 seconds (JVM running for 6.247)
+2023-10-09 00:21:10.286  INFO 34995 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 00:21:10.288  INFO 34995 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 00:21:10.326  INFO 34995 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 37 ms
+2023-10-09 00:21:10.758  INFO 34995 --- [http-nio-8888-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 00:21:10.902  INFO 34995 --- [http-nio-8888-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 00:22:11.855  INFO 34995 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:22:11.858  INFO 34995 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 00:22:11.924  INFO 34995 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 00:22:14.044  INFO 35010 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 35010 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 00:22:14.047  INFO 35010 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 00:22:15.308  WARN 35010 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 00:22:16.290  INFO 35010 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 00:22:16.331  INFO 35010 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 00:22:16.331  INFO 35010 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 00:22:16.347  INFO 35010 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 00:22:16.484  INFO 35010 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 00:22:16.484  INFO 35010 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2348 ms
+2023-10-09 00:22:16.545  INFO 35010 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 00:22:16.549  INFO 35010 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 00:22:16.549  INFO 35010 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 00:22:16.550  INFO 35010 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 00:22:16.550  INFO 35010 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 00:22:18.705  INFO 35010 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:22:19.227  INFO 35010 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 00:22:19.231  INFO 35010 --- [main] com.example.Application                  : Started Application in 5.757 seconds (JVM running for 6.418)
+2023-10-09 00:22:21.592  INFO 35010 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 00:22:21.593  INFO 35010 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 00:22:21.654  INFO 35010 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 60 ms
+2023-10-09 00:22:22.112  INFO 35010 --- [http-nio-8888-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 00:22:22.290  INFO 35010 --- [http-nio-8888-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 00:23:14.776  INFO 35010 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:23:14.780  INFO 35010 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 00:23:14.790  INFO 35010 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 00:23:16.865  INFO 35023 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 35023 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 00:23:16.868  INFO 35023 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 00:23:18.204  WARN 35023 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 00:23:19.167  INFO 35023 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 00:23:19.218  INFO 35023 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 00:23:19.218  INFO 35023 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 00:23:19.233  INFO 35023 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 00:23:19.366  INFO 35023 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 00:23:19.367  INFO 35023 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2327 ms
+2023-10-09 00:23:19.427  INFO 35023 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 00:23:19.430  INFO 35023 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 00:23:19.431  INFO 35023 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 00:23:19.431  INFO 35023 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 00:23:19.431  INFO 35023 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 00:23:21.695  INFO 35023 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:23:22.268  INFO 35023 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 00:23:22.273  INFO 35023 --- [main] com.example.Application                  : Started Application in 5.991 seconds (JVM running for 6.55)
+2023-10-09 00:23:24.328  INFO 35023 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 00:23:24.334  INFO 35023 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 00:23:24.365  INFO 35023 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 31 ms
+2023-10-09 00:23:24.840  INFO 35023 --- [http-nio-8888-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 00:23:24.970  INFO 35023 --- [http-nio-8888-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 00:24:18.736 ERROR 35023 --- [http-nio-8888-exec-2] c.e.exception.GlobalExceptionHandler     : 异常信息：
+
+org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'text' is not present
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:202) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:113) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:124) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:165) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_361]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_361]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_361]
+
+2023-10-09 00:27:07.057  INFO 35023 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:27:07.065  INFO 35023 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 00:27:07.114  INFO 35023 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 00:27:11.831  INFO 35072 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 35072 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 00:27:11.834  INFO 35072 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 00:27:13.056  WARN 35072 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 00:27:14.041  INFO 35072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 00:27:14.080  INFO 35072 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 00:27:14.080  INFO 35072 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 00:27:14.096  INFO 35072 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 00:27:14.218  INFO 35072 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 00:27:14.219  INFO 35072 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2303 ms
+2023-10-09 00:27:14.280  INFO 35072 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 00:27:14.284  INFO 35072 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 00:27:14.285  INFO 35072 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 00:27:14.285  INFO 35072 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 00:27:14.285  INFO 35072 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 00:27:16.478  INFO 35072 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:27:16.982  INFO 35072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 00:27:16.986  INFO 35072 --- [main] com.example.Application                  : Started Application in 5.733 seconds (JVM running for 6.284)
+2023-10-09 00:27:19.091  INFO 35072 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 00:27:19.097  INFO 35072 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 00:27:19.133  INFO 35072 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 36 ms
+2023-10-09 00:27:27.425  INFO 35072 --- [http-nio-8888-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 00:27:27.580  INFO 35072 --- [http-nio-8888-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 00:28:13.856  INFO 35072 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:28:13.859  INFO 35072 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 00:28:13.880  INFO 35072 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 00:28:16.825  INFO 35077 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 35077 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 00:28:16.828  INFO 35077 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 00:28:18.011  WARN 35077 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 00:28:19.017  INFO 35077 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 00:28:19.062  INFO 35077 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 00:28:19.063  INFO 35077 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 00:28:19.078  INFO 35077 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 00:28:19.203  INFO 35077 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 00:28:19.204  INFO 35077 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2288 ms
+2023-10-09 00:28:19.266  INFO 35077 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 00:28:19.270  INFO 35077 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 00:28:19.271  INFO 35077 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 00:28:19.271  INFO 35077 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 00:28:19.271  INFO 35077 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 00:28:21.362  INFO 35077 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 00:28:21.911  INFO 35077 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 00:28:21.919  INFO 35077 --- [main] com.example.Application                  : Started Application in 5.666 seconds (JVM running for 6.246)
+2023-10-09 00:28:25.706  INFO 35077 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 00:28:25.710  INFO 35077 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 00:28:25.747  INFO 35077 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 36 ms
+2023-10-09 00:28:26.073  INFO 35077 --- [http-nio-8888-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 00:28:26.276  INFO 35077 --- [http-nio-8888-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 00:44:19.033  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m22s644ms).
+2023-10-09 01:18:39.816  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m20s786ms).
+2023-10-09 01:34:09.426  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m29s609ms).
+2023-10-09 02:06:28.526  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m19s101ms).
+2023-10-09 02:30:37.290  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m8s763ms).
+2023-10-09 03:23:24.562  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m47s272ms).
+2023-10-09 03:58:33.776  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m9s214ms).
+2023-10-09 04:30:49.009  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m15s234ms).
+2023-10-09 05:02:06.010  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m17s).
+2023-10-09 06:07:26.186  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m20s174ms).
+2023-10-09 07:25:15.003  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h17m48s820ms).
+2023-10-09 07:58:40.122  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m25s117ms).
+2023-10-09 08:02:00.101  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m19s978ms).
+2023-10-09 08:30:35.123  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m4s843ms).
+2023-10-09 08:34:48.621  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m13s481ms).
+2023-10-09 10:37:05.863  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m8s741ms).
+2023-10-09 12:16:09.142  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h39m3s289ms).
+2023-10-09 13:27:03.018  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h10m53s878ms).
+2023-10-09 13:27:50.534  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s515ms).
+2023-10-09 14:00:18.492  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m57s745ms).
+2023-10-09 14:06:37.883  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m19s401ms).
+2023-10-09 14:08:36.043  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s129ms).
+2023-10-09 14:22:56.802  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m17s278ms).
+2023-10-09 14:41:20.690  WARN 35077 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m53s866ms).
+2023-10-09 16:04:38.231  INFO 35077 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 16:04:38.250  INFO 35077 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 16:04:38.277  INFO 35077 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 16:05:01.052  INFO 37862 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 37862 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 16:05:01.055  INFO 37862 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 16:05:02.537  WARN 37862 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 16:05:03.602  INFO 37862 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 16:05:03.648  INFO 37862 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 16:05:03.648  INFO 37862 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 16:05:03.665  INFO 37862 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 16:05:03.814  INFO 37862 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 16:05:03.815  INFO 37862 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2659 ms
+2023-10-09 16:05:03.875  INFO 37862 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 16:05:03.879  INFO 37862 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 16:05:03.880  INFO 37862 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 16:05:03.880  INFO 37862 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 16:05:03.880  INFO 37862 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 16:05:06.125  INFO 37862 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 16:05:06.702  INFO 37862 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 16:05:06.706  INFO 37862 --- [main] com.example.Application                  : Started Application in 6.274 seconds (JVM running for 7.027)
+2023-10-09 16:05:17.696  INFO 37862 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 16:05:17.702  INFO 37862 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 16:05:17.743  INFO 37862 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 41 ms
+2023-10-09 16:05:39.734  INFO 37862 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 16:05:39.925  INFO 37862 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 16:10:12.561  INFO 37862 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 16:10:12.564  INFO 37862 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 16:10:12.577  INFO 37862 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 16:10:15.582  INFO 37933 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 37933 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 16:10:15.585  INFO 37933 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 16:10:16.823  WARN 37933 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 16:10:17.848  INFO 37933 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 16:10:17.893  INFO 37933 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 16:10:17.893  INFO 37933 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 16:10:17.909  INFO 37933 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 16:10:18.038  INFO 37933 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 16:10:18.038  INFO 37933 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2365 ms
+2023-10-09 16:10:18.101  INFO 37933 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 16:10:18.104  INFO 37933 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 16:10:18.105  INFO 37933 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 16:10:18.105  INFO 37933 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 16:10:18.105  INFO 37933 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 16:10:20.303  INFO 37933 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 16:10:20.816  INFO 37933 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 16:10:20.821  INFO 37933 --- [main] com.example.Application                  : Started Application in 5.848 seconds (JVM running for 6.477)
+2023-10-09 16:11:04.705  INFO 37933 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 16:11:07.295  INFO 37966 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 37966 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 16:11:07.298  INFO 37966 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 16:11:08.534  WARN 37966 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 16:11:09.517  INFO 37966 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 16:11:09.556  INFO 37966 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 16:11:09.557  INFO 37966 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 16:11:09.573  INFO 37966 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 16:11:09.712  INFO 37966 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 16:11:09.713  INFO 37966 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2326 ms
+2023-10-09 16:11:09.777  INFO 37966 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 16:11:09.780  INFO 37966 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 16:11:09.780  INFO 37966 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 16:11:09.781  INFO 37966 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 16:11:09.781  INFO 37966 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 16:11:11.954  INFO 37966 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 16:11:12.592  INFO 37966 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 16:11:12.597  INFO 37966 --- [main] com.example.Application                  : Started Application in 5.869 seconds (JVM running for 6.358)
+2023-10-09 16:11:18.602  INFO 37966 --- [http-nio-8888-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 16:11:18.604  INFO 37966 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 16:11:18.642  INFO 37966 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 37 ms
+2023-10-09 16:11:27.863  INFO 37966 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 16:11:28.017  INFO 37966 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 16:13:07.621  INFO 37966 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 16:13:07.625  INFO 37966 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 16:13:07.634  INFO 37966 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 16:13:10.465  INFO 37988 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 37988 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 16:13:10.467  INFO 37988 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 16:13:11.937  WARN 37988 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 16:13:13.149  INFO 37988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 16:13:13.192  INFO 37988 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 16:13:13.192  INFO 37988 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 16:13:13.208  INFO 37988 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 16:13:13.370  INFO 37988 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 16:13:13.371  INFO 37988 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2811 ms
+2023-10-09 16:13:13.435  INFO 37988 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 16:13:13.439  INFO 37988 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 16:13:13.439  INFO 37988 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 16:13:13.439  INFO 37988 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 16:13:13.439  INFO 37988 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 16:13:15.687  INFO 37988 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 16:13:16.210  INFO 37988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 16:13:16.215  INFO 37988 --- [main] com.example.Application                  : Started Application in 6.52 seconds (JVM running for 7.21)
+2023-10-09 16:13:19.599  INFO 37988 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 16:13:19.601  INFO 37988 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 16:13:19.641  INFO 37988 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 40 ms
+2023-10-09 16:13:28.577  INFO 37988 --- [http-nio-8888-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 16:13:28.748  INFO 37988 --- [http-nio-8888-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 16:15:34.637  INFO 37988 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 16:15:34.645  INFO 37988 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 16:15:34.737  INFO 37988 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 16:15:37.921  INFO 38033 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 38033 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 16:15:37.924  INFO 38033 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 16:15:39.171  WARN 38033 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 16:15:40.156  INFO 38033 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 16:15:40.198  INFO 38033 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 16:15:40.198  INFO 38033 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 16:15:40.215  INFO 38033 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 16:15:40.343  INFO 38033 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 16:15:40.344  INFO 38033 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2331 ms
+2023-10-09 16:15:40.404  INFO 38033 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 16:15:40.408  INFO 38033 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 16:15:40.408  INFO 38033 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 16:15:40.409  INFO 38033 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 16:15:40.409  INFO 38033 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 16:15:42.647  INFO 38033 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 16:15:43.210  INFO 38033 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 16:15:43.214  INFO 38033 --- [main] com.example.Application                  : Started Application in 5.892 seconds (JVM running for 6.558)
+2023-10-09 16:15:48.686  INFO 38033 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 16:15:48.690  INFO 38033 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 16:15:48.727  INFO 38033 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 36 ms
+2023-10-09 16:15:51.877  INFO 38033 --- [http-nio-8888-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 16:15:52.053  INFO 38033 --- [http-nio-8888-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 16:43:46.596  INFO 38033 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 16:43:46.612  INFO 38033 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 16:43:46.719  INFO 38033 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 16:43:51.034  INFO 39049 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 39049 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 16:43:51.036  INFO 39049 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 16:43:52.275  WARN 39049 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 16:43:53.322  INFO 39049 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 16:43:53.364  INFO 39049 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 16:43:53.365  INFO 39049 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 16:43:53.379  INFO 39049 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 16:43:53.526  INFO 39049 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 16:43:53.526  INFO 39049 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2398 ms
+2023-10-09 16:43:53.592  INFO 39049 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 16:43:53.596  INFO 39049 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 16:43:53.597  INFO 39049 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 16:43:53.597  INFO 39049 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 16:43:53.597  INFO 39049 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 16:43:55.954  INFO 39049 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 16:43:56.526  INFO 39049 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 16:43:56.531  INFO 39049 --- [main] com.example.Application                  : Started Application in 6.139 seconds (JVM running for 6.869)
+2023-10-09 16:44:15.746  INFO 39049 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 16:44:15.751  INFO 39049 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 16:44:15.789  INFO 39049 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 38 ms
+2023-10-09 16:44:21.962  INFO 39049 --- [http-nio-8888-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 16:44:22.163  INFO 39049 --- [http-nio-8888-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 16:50:22.133  WARN 39049 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s778ms), soft-evicting connections from pool.
+2023-10-09 16:55:29.807  INFO 39049 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 16:55:29.813  INFO 39049 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 16:55:29.831  INFO 39049 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 17:05:17.569  INFO 39281 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 39281 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 17:05:17.572  INFO 39281 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 17:05:18.918  WARN 39281 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 17:05:19.914  INFO 39281 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 17:05:19.960  INFO 39281 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 17:05:19.960  INFO 39281 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 17:05:19.977  INFO 39281 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 17:05:20.109  INFO 39281 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 17:05:20.109  INFO 39281 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2432 ms
+2023-10-09 17:05:20.170  INFO 39281 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 17:05:20.174  INFO 39281 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 17:05:20.175  INFO 39281 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 17:05:20.176  INFO 39281 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 17:05:20.176  INFO 39281 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 17:05:22.478  INFO 39281 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 17:05:23.041  INFO 39281 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 17:05:23.046  INFO 39281 --- [main] com.example.Application                  : Started Application in 6.291 seconds (JVM running for 7.048)
+2023-10-09 17:05:28.169  INFO 39281 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 17:05:28.174  INFO 39281 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 17:05:28.216  INFO 39281 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 42 ms
+2023-10-09 17:05:38.078  INFO 39281 --- [http-nio-8888-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 17:05:38.339  INFO 39281 --- [http-nio-8888-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 17:12:54.488  INFO 39281 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 17:12:54.494  INFO 39281 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 17:12:54.566  INFO 39281 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 17:12:58.248  INFO 39445 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 39445 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 17:12:58.250  INFO 39445 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 17:12:59.440  WARN 39445 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 17:13:00.454  INFO 39445 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 17:13:00.483  INFO 39445 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 17:13:00.483  INFO 39445 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 17:13:00.496  INFO 39445 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 17:13:00.643  INFO 39445 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 17:13:00.644  INFO 39445 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2306 ms
+2023-10-09 17:13:00.704  INFO 39445 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 17:13:00.708  INFO 39445 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 17:13:00.708  INFO 39445 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 17:13:00.709  INFO 39445 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 17:13:00.709  INFO 39445 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 17:13:02.802  INFO 39445 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 17:13:03.369  INFO 39445 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 17:13:03.377  INFO 39445 --- [main] com.example.Application                  : Started Application in 5.728 seconds (JVM running for 6.357)
+2023-10-09 17:13:07.548  INFO 39445 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 17:13:07.551  INFO 39445 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 17:13:07.591  INFO 39445 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 39 ms
+2023-10-09 17:14:58.711  INFO 39445 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 17:15:01.946  INFO 39464 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 39464 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 17:15:01.948  INFO 39464 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 17:15:03.160  WARN 39464 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 17:15:04.162  INFO 39464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 17:15:04.207  INFO 39464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 17:15:04.208  INFO 39464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 17:15:04.221  INFO 39464 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 17:15:04.354  INFO 39464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 17:15:04.354  INFO 39464 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2312 ms
+2023-10-09 17:15:04.412  INFO 39464 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 17:15:04.416  INFO 39464 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 17:15:04.416  INFO 39464 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 17:15:04.416  INFO 39464 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 17:15:04.416  INFO 39464 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 17:15:06.486  INFO 39464 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 17:15:07.002  INFO 39464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 17:15:07.006  INFO 39464 --- [main] com.example.Application                  : Started Application in 5.663 seconds (JVM running for 6.31)
+2023-10-09 17:15:10.436  INFO 39464 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 17:15:10.438  INFO 39464 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 17:15:10.491  INFO 39464 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 53 ms
+2023-10-09 17:15:23.229  INFO 39464 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 17:15:25.218  INFO 39469 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 39469 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/电影销售系统/filmBuy)
+2023-10-09 17:15:25.223  INFO 39469 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 17:15:26.427  WARN 39469 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 17:15:27.363  INFO 39469 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 17:15:27.407  INFO 39469 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 17:15:27.408  INFO 39469 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 17:15:27.422  INFO 39469 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 17:15:27.544  INFO 39469 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 17:15:27.544  INFO 39469 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2231 ms
+2023-10-09 17:15:27.607  INFO 39469 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 17:15:27.611  INFO 39469 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 17:15:27.612  INFO 39469 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 17:15:27.613  INFO 39469 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 17:15:27.613  INFO 39469 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 17:15:29.722  INFO 39469 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 17:15:30.307  INFO 39469 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 17:15:30.314  INFO 39469 --- [main] com.example.Application                  : Started Application in 5.664 seconds (JVM running for 6.248)
+2023-10-09 17:15:32.860  INFO 39469 --- [http-nio-8888-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 17:15:32.865  INFO 39469 --- [http-nio-8888-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 17:15:32.894  INFO 39469 --- [http-nio-8888-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2023-10-09 17:15:46.589  INFO 39469 --- [http-nio-8888-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 17:15:46.757  INFO 39469 --- [http-nio-8888-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 17:16:29.453  INFO 39469 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 17:16:29.456  INFO 39469 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 17:16:29.464  INFO 39469 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 17:25:46.003  INFO 39761 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 39761 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/movieBooking/filmBuy)
+2023-10-09 17:25:46.005  INFO 39761 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 17:25:47.381  WARN 39761 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 17:25:48.396  INFO 39761 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 17:25:48.447  INFO 39761 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 17:25:48.448  INFO 39761 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 17:25:48.468  INFO 39761 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 17:25:48.575  INFO 39761 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 17:25:48.576  INFO 39761 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2488 ms
+2023-10-09 17:25:48.637  INFO 39761 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 17:25:48.641  INFO 39761 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 17:25:48.641  INFO 39761 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 17:25:48.641  INFO 39761 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 17:25:48.641  INFO 39761 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 17:25:50.903  INFO 39761 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 17:25:51.433  INFO 39761 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 17:25:51.438  INFO 39761 --- [main] com.example.Application                  : Started Application in 6.015 seconds (JVM running for 6.659)
+2023-10-09 17:26:02.691  INFO 39761 --- [http-nio-8888-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 17:26:02.697  INFO 39761 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 17:26:02.745  INFO 39761 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 48 ms
+2023-10-09 17:26:10.013  INFO 39761 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 17:26:10.175  INFO 39761 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 17:28:51.398  INFO 39761 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 17:28:51.401  INFO 39761 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 17:28:51.416  INFO 39761 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 17:28:54.477  INFO 39796 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 39796 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/movieBooking/filmBuy)
+2023-10-09 17:28:54.480  INFO 39796 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 17:28:55.711  WARN 39796 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 17:28:56.726  INFO 39796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 17:28:56.775  INFO 39796 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 17:28:56.775  INFO 39796 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 17:28:56.790  INFO 39796 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 17:28:56.903  INFO 39796 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 17:28:56.903  INFO 39796 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2331 ms
+2023-10-09 17:28:56.962  INFO 39796 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 17:28:56.966  INFO 39796 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 17:28:56.966  INFO 39796 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 17:28:56.966  INFO 39796 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 17:28:56.966  INFO 39796 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 17:28:59.129  INFO 39796 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 17:28:59.694  INFO 39796 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 17:28:59.697  INFO 39796 --- [main] com.example.Application                  : Started Application in 5.859 seconds (JVM running for 6.478)
+2023-10-09 17:40:30.718  INFO 39796 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 17:40:56.810  INFO 39965 --- [main] com.example.Application                  : Starting Application on ruodannangdeMBP.gateway with PID 39965 (started by ruodannayang in /Users/ruodannayang/Documents/UTS course/4th semester/Advanced Software Development/Code/movieBooking/filmBuy)
+2023-10-09 17:40:56.814  INFO 39965 --- [main] com.example.Application                  : No active profile set, falling back to default profiles: default
+2023-10-09 17:40:58.276  WARN 39965 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2023-10-09 17:40:59.406  INFO 39965 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-10-09 17:40:59.438  INFO 39965 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 17:40:59.438  INFO 39965 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2023-10-09 17:40:59.449  INFO 39965 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ruodannayang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2023-10-09 17:40:59.549  INFO 39965 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 17:40:59.549  INFO 39965 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2629 ms
+2023-10-09 17:40:59.604  INFO 39965 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2023-10-09 17:40:59.607  INFO 39965 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-10-09 17:40:59.608  INFO 39965 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-10-09 17:40:59.608  INFO 39965 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2023-10-09 17:40:59.608  INFO 39965 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2023-10-09 17:41:02.036  INFO 39965 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-09 17:41:02.702  INFO 39965 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-10-09 17:41:02.706  INFO 39965 --- [main] com.example.Application                  : Started Application in 6.629 seconds (JVM running for 7.572)
+2023-10-09 17:41:50.616  INFO 39965 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 17:41:50.620  INFO 39965 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-09 17:41:50.670  INFO 39965 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 49 ms
+2023-10-09 17:41:58.470  INFO 39965 --- [http-nio-8888-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 17:41:58.697  INFO 39965 --- [http-nio-8888-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 17:42:50.510  INFO 39965 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-09 17:42:50.516  INFO 39965 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 17:42:50.528  INFO 39965 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
