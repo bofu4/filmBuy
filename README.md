@@ -8,11 +8,11 @@ that the database and the code section are connected.
 
 
 The features finished by Bo:
-Movie info management 
-User access management 
-User account management 
+Movie info management, 
+User access management, 
+User account management. 
 
 The features finished by Changyi:
-Movie List Management 
-Movie Category Management
-Order history 
+Movie List Management, 
+Movie Category Management,
+Order history. 
