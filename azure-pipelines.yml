@@ -30,8 +30,4 @@ stages:
         steps:
           - script: echo 'This is the Deploy stage'
             displayName: 'Deploy'
-  - task: DownloadPipelineArtifact@2
-    inputs:
-      artifact: 'Staging'
-      targetPath: '$(Build.ArtifactStagingDirectory)'
   - task: PublishBuildArtifacts@1
