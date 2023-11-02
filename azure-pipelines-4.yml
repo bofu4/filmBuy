@@ -24,6 +24,8 @@ steps:
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
-- download: current
-  artifact: WebApp
+steps:
+- task: DownloadPipelineArtifact@2
+  inputs:
+    artifact: WebApp
 
