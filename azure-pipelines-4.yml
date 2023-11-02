@@ -8,21 +8,6 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- task: UseJavaVersion@0
-  inputs:
-    version: '11'
-    arch: 'x64'
-    jdkFile: 'jdk11.0.x64.zip'
-    jdkDestinationDirectory: $(Agent.ToolsDirectory)/jdk
-
-- script: |
-    echo $(Agent.ToolsDirectory)/jdk
-    ls $(Agent.ToolsDirectory)/jdk
-  displayName: 'Check Java installation'
-
-- script: 'mvn clean install'
-  displayName: 'Maven Build'
-
 - task: CopyFiles@2
   inputs:
     SourceFolder: '$(System.DefaultWorkingDirectory)'
