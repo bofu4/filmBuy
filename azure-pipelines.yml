@@ -1,46 +1,40 @@
 trigger:
-  - master
+  branches:
+    include:
+      - main
 
 pool:
-  vmImage: 'windows-latest'
+  vmImage: 'ubuntu-latest'
 
+stages:
+  - stage: Build
+    jobs:
+      - job: Build
+        steps:
+          - script: echo "Building the application"
+          - script: | # Add your build commands here
+              # Example: npm install
+              # Example: npm run build
 
+  - stage: Test
+    jobs:
+      - job: Test
+        steps:
+          - script: echo "Running tests"
+          - script: | # Add your test commands here
+              # Example: npm test
 
-variables:
-  solution: '**/*.sln'
-  buildPlatform: 'Any CPU'
-  buildConfiguration: 'Release'
-
-steps:
-  - task: NuGetToolInstaller@1
-
-  - task: NuGetCommand@2
+  - stage: Deploy
+    jobs:
+      - job: Deploy
+        steps:
+          - script: echo 'This is the Deploy stage'
+            displayName: 'Deploy'
+  - task: DownloadPipelineArtifact@2
     inputs:
-      restoreSolution: '$(solution)'
-
-  - task: VSBuild@1
-    inputs:
-      solution: '$(solution)'
-      msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactStagingDirectory)"'
-      platform: '$(buildPlatform)'
-      configuration: '$(buildConfiguration)'
-
-  - task: VSTest@2
-    inputs:
-      platform: '$(buildPlatform)'
-      configuration: '$(buildConfiguration)'
-
-  - task: CopyFiles@2
-    inputs:
-      SourceFolder: '$(agent.builddirectory)'
-      Contents: |
-        |
-             **\*.runsettings
-             **\*FunctionalTest*\**\bin\$(BuildConfiguration)\**
-      TargetFolder: '''$(build.artifactstagingdirectory)\FunctionalTests'''
-
-
+      artifact: 'Staging'
+      targetPath: '$(Build.ArtifactStagingDirectory)'
   - task: PublishBuildArtifacts@1
-    displayName: 'Publish Artifact: drop'
     inputs:
-      PathtoPublish: '$(build.artifactstagingdirectory)'
+      artifactName: 'drop'
+      pathToPublish: '$(build.artifactStagingDirectory)'
