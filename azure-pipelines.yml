@@ -47,4 +47,4 @@ jobs:
           appType: <app type>
           appName: '<name of test stage web app>'
           resourceGroupName: <resource group name>
-          package: '$(Pipeline.Workspace)/**/*.zip'
+          package: $(System.DefaultWorkingDirectory)\**\*.zip
