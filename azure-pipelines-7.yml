@@ -1,0 +1,50 @@
+- stage: Build 
+  displayName: Build  
+
+  jobs:
+  - job: build_APIs
+    displayName: Build APIs
+
+    steps:        
+    - task: DotNetCoreCLI@2
+      displayName: Build Release
+      inputs:
+        command: 'build'
+        projects: |
+          $(functionAppDirectory)/*.csproj
+        arguments: --output $(publishOutputDirectory) --configuration Release
+
+    - task: ArchiveFiles@2
+      displayName: 'Archive files'
+      inputs:
+        rootFolderOrFile: '$(publishOutputDirectory)'
+        includeRootFolder: false
+        archiveType: zip
+        archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+        replaceExistingArchive: true
+
+    - publish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+      artifact: drop
+
+- stage: Deploy
+  displayName: Deploy
+  dependsOn: Build
+  jobs:
+    - deployment: Deploy   
+      environment: 'UAT'   
+      strategy:
+        runOnce:
+          preDeploy:
+            steps:
+            - download: current
+              artifact: drop
+              displayName: Download artifact            
+          deploy:
+            steps:            
+            - task: AzureWebApp@1    
+              displayName: Deploy to UAT
+              inputs:                
+                azureSubscription: '..............'
+                appType: 'functionApp'
+                appName: '.............'
+                package: '$(Pipeline.Workspace)/drop/$(Build.BuildId).zip'
