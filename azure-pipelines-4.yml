@@ -13,16 +13,6 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- task: UseJavaVersion@0
-  inputs:
-    version: '11'
-    arch: 'x64'
-    jdkFile: 'jdk11.0.x64.zip'
-    jdkDestinationDirectory: $(Agent.ToolsDirectory)/jdk
-
-- script: 'mvn clean install'
-  displayName: 'Maven Build'
-
 - task: CopyFiles@2
   inputs:
     SourceFolder: '$(System.DefaultWorkingDirectory)'
@@ -34,4 +24,6 @@ steps:
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
+- publish: $(build.artifactstagingdirectory)
+  artifact: WebApp
 
