@@ -1,50 +1,50 @@
-- stage: Build 
-  displayName: Build  
+trigger:
+  branches:
+    include:
+      - main
 
-  jobs:
-  - job: build_APIs
-    displayName: Build APIs
+jobs:
+  - job: buildandtest
+    pool:
+      vmImage: ubuntu-latest
 
-    steps:        
-    - task: DotNetCoreCLI@2
-      displayName: Build Release
-      inputs:
-        command: 'build'
-        projects: |
-          $(functionAppDirectory)/*.csproj
-        arguments: --output $(publishOutputDirectory) --configuration Release
+    steps:
+      # publish an artifact called drop
+      - task: PublishPipelineArtifact@1
+        inputs:
+          targetPath: '$(Build.ArtifactStagingDirectory)'
+          artifactName: drop
 
-    - task: ArchiveFiles@2
-      displayName: 'Archive files'
-      inputs:
-        rootFolderOrFile: '$(publishOutputDirectory)'
-        includeRootFolder: false
-        archiveType: zip
-        archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
-        replaceExistingArchive: true
+      # deploy to Azure Web App staging
+      - task: AzureWebApp@1
+        inputs:
+          azureSubscription: '<Azure service connection>'
+          appType: <app type>
+          appName: '<name of test stage web app>'
+          deployToSlotOrASE: true
+          resourceGroupName: <resource group name>
+          slotName: 'staging'
+          package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
 
-    - publish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
-      artifact: drop
+  - job: deploy
+    dependsOn: buildandtest
+    condition: succeeded()
 
-- stage: Deploy
-  displayName: Deploy
-  dependsOn: Build
-  jobs:
-    - deployment: Deploy   
-      environment: 'UAT'   
-      strategy:
-        runOnce:
-          preDeploy:
-            steps:
-            - download: current
-              artifact: drop
-              displayName: Download artifact            
-          deploy:
-            steps:            
-            - task: AzureWebApp@1    
-              displayName: Deploy to UAT
-              inputs:                
-                azureSubscription: '..............'
-                appType: 'functionApp'
-                appName: '.............'
-                package: '$(Pipeline.Workspace)/drop/$(Build.BuildId).zip'
+    pool:
+      vmImage: ubuntu-latest
+
+    steps:
+      # download the artifact drop from the previous job
+      - task: DownloadPipelineArtifact@2
+        inputs:
+          buildType: 'current'
+          artifactName: 'drop'
+          targetPath: '$(Pipeline.Workspace)'
+
+      - task: AzureWebApp@1
+        inputs:
+          azureSubscription: '<Azure service connection>'
+          appType: <app type>
+          appName: '<name of test stage web app>'
+          resourceGroupName: <resource group name>
+          package: '$(Pipeline.Workspace)/**/*.zip'
